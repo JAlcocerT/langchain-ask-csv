@@ -9,7 +9,7 @@
 
 <div align="center">
   <a href="https://github.com/JAlcocerT/Streamlit-AIssistant" style="margin-right: 5px;">
-    <img alt="Mantained" src="https://img.shields.io/badge/Maintained%3F-yes-green.svg" />
+    <img alt="Mantained" src="https://img.shields.io/badge/Maintained%3F-no-red.svg" />
   </a>
   <a href="https://www.python.org/downloads/release">
     <img alt="Python Version" src="https://img.shields.io/badge/python-3.10-blue.svg" />
@@ -44,7 +44,7 @@ streamlit run Z_ST_AIssistant_v1.py
 # git push
 ```
 
-[Or deploy with your **Container Image** →](https://github.com/JAlcocerT/langchain-ask-csv/Z_Deploy_Me)
+[Or deploy with your **Container Image** →](https://github.com/JAlcocerT/langchain-ask-csv/tree/main/Z_Deploy_Me)
 
 
 ---
