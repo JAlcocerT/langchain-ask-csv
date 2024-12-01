@@ -1,0 +1,30 @@
+version: '3'
+
+services:
+  streamlit-askcsv:
+    image: askcsv
+    container_name: streamlit_askcsv
+    volumes:
+      - ai_streamlit_askcsv:/app
+    working_dir: /app
+    command: /bin/sh -c "\     
+      streamlit run Z_multichat.py"
+    ports:
+      - "8501:8501"
+    restart: always
+    # networks:
+    #   - cloudflare_tunnel
+      # - nginx_default   
+    #restart: always   
+
+# networks:
+#   cloudflare_tunnel:
+#     external: true
+  # nginx_default:
+  #   external: true
+
+volumes:
+  ai_streamlit_askcsv:
+
+
+#docker-compose up -d
